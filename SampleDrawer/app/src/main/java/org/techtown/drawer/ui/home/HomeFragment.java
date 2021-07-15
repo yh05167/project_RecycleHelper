@@ -1,3 +1,5 @@
+/*
+
 package org.techtown.drawer.ui.home;
 
 import android.os.Bundle;
@@ -13,6 +15,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import org.techtown.drawer.R;
+import org.techtown.drawer.ui.home.HomeViewModel;
 
 public class HomeFragment extends Fragment {
 
@@ -33,3 +36,4 @@ public class HomeFragment extends Fragment {
         return root;
     }
 }
+*/

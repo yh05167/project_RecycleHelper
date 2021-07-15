@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     Campaign_fragment campaignfragment;
     DrawerLayout drawer;
     Toolbar toolbar;
-    ImageView cameraOption;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,5 +99,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, curFragment).commit();
+    }
+    public void showChallengeAll() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new Challenge_all_fragment()).commit();
+    }
+    public void showChallengeMy() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new Challenge_my_fragment()).commit();
     }
 }

@@ -1,3 +1,4 @@
+/*
 package org.techtown.drawer.ui.gallery;
 
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import org.techtown.drawer.R;
+import org.techtown.drawer.ui.gallery.GalleryViewModel;
 
 public class GalleryFragment extends Fragment {
 
@@ -33,3 +35,4 @@ public class GalleryFragment extends Fragment {
         return root;
     }
 }
+*/
